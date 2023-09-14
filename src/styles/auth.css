@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start;
+  align-items: center;
+  /* width:25hv; */
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.header {
+  margin: 5px;
+}
+
+.auth {
+  width: 30%;
+  height: auto; /* Adjust the height based on your content */
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #d8dce8;
+  box-shadow: 0 0 10px rgba(4, 5, 9, 0.2);
+  background-color: rgb(71, 71, 139);
+}
+.label {
+  display: flex;
+  margin-left: 50px;
+  padding: 15px;
+  font-size: large;
+  color: white;
+}
+.input {
+  height: 35px;
+  width: 500px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.input:hover {
+  transform: scale(1.1); /* Scale the input field to 110% on hover */
+}
+.login {
+  color: rgb(193, 77, 125);
+}
+.login:hover {
+  color: aqua;
+}
+.para {
+  color: white;
+}
